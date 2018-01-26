@@ -123,7 +123,7 @@ contract StandardToken is ERC20, SafeMath {
 }
 
 /// @title No Fake Coin
-/// @author Leon Huang <NoFakeToday@gmail.com>
+/// @author Leon Huang <leon@nofake.today>
 contract NoFakeCoin is Ownable, StandardToken {
 
     string public name = "NoFakeCoin";
